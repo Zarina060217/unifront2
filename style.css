@@ -149,7 +149,7 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 одинаковых столбца */
-    grid-template-rows: repeat(3, 200px);    /* 3 ряда фиксированной высоты */
+    grid-auto-rows: 220px;
     gap: 15px;                               /* Пространство между картинками */
     margin-top: 15px;
 }
