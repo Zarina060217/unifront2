@@ -14,9 +14,9 @@
 * Task 1
 * ![alt text](image-6.png)
 * card row html
-* ![alt text](image-7.png)
-* ![alt text](image-8.png)
-*card row css
+* ![alt text](image-9.png)
+* card row css
+* ![alt text](image-10.png)
 
 * How we completed task :
 * * display: flex → Puts the cards in a horizontal row instead of stacking them.
