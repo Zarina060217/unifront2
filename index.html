@@ -3,51 +3,74 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Formula1 Grid Layout & Gallery</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="navbar-container">
-            <div class="logo">Formula1</div>
-            <nav>
-                <ul class="nav-links">
+        <div class="page">
+            <header class="header">
+                <h2>Formula1 Dashboard</h2>
+                <p>Explore teams, drivers, and the photo gallery.</p>
+            </header>
+            <aside class="sidebar">
+                <h3>Navigation</h3>
+                <ul class="side-links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Drivers</a></li>
                     <li><a href="#">Teams</a></li>
                     <li><a href="#">Grand Prix</a></li>
                 </ul>
-            </nav>
-        </header>
+            </aside>
 
-        <section class="card-section">
-            <div class="card-container">
-                <div class="card">
-                    <img src="mercedes.jpg" alt="card image">
-                    <div class="card-body">
-                        <h3>Mercedes F1</h3>
-                        <p>All it takes, is all of us</p>
-                        <button style="background-color: #00a19b ;">Button</button>
+            <main class="main">
+                <h3>Teams Showcase</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="mercedes.jpg" alt="Mercedes F1">
+                        <div class="card-body">
+                            <h3>Mercedes F1</h3>
+                            <p>All it takes, is all of us</p>
+                            <button style="background-color: #00a19b; color: white;">Button</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="redbull.jpg" alt="Red Bull F1">
+                        <div class="card-body">
+                            <h3>Red Bull F1</h3>
+                            <p>Red Bull gives you wings</p>
+                            <button style="background-color: #1e3d59; color: white;">Button</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="ferrari.jpg" alt="Ferrari F1">
+                        <div class="card-body">
+                            <h3>Ferrari F1</h3>
+                            <p>Essere Ferrari</p>
+                            <button style="background-color: #dc0000; color: white;">Button</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src="redbull.jpg" alt="card image">
-                    <div class="card-body">
-                        <h3>Red Bull F1</h3>
-                        <p>Red Bull gives you wings</p>
-                        <button style="background-color: #FDD900 ;">Button</button>
-                    </div>
+                <h3 style="margin-top: 3rem;">F1 Photo Gallery</h3>
+                <div class="gallery">
+                    <img src="max1.jpg" alt="Gallery 1">
+                    <img src="max2.jpg" alt="Gallery 2">
+                    <img src="max3.jpg" alt="Gallery 3">
+                    <img src="diva1.jpg" alt="Gallery 4">
+                    <img src="toto.jpg" alt="Gallery 5">
+                    <img src="diva2.jpg" alt="Gallery 6">
+                    <img src="leclerc1.jpg" alt="Gallery 7">
+                    <img src="leclerc2.jpg" alt="Gallery 8">
+                    <img src="leclerc3.jpg" alt="Gallery 9">
                 </div>
+            </main>
 
-                <div class="card">
-                    <img src="ferrari.jpg" alt="card image">
-                    <div class="card-body">
-                        <h3>Ferrari F1</h3>
-                        <p>Essere Ferrari</p>
-                        <button style="background-color:#dc0000;">Button</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <footer class="footer">
+                <p>&copy; 2026 Formula1 Project. All rights reserved.</p>
+            </footer>
+
+        </div>
     </body>
 </html>

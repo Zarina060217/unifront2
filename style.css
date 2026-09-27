@@ -7,6 +7,64 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
 }
+
+.page {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    min-height: 100vh;
+    gap: 15px;
+    background-color: #e5e9ef;
+    padding: 15px;
+}
+.header {
+    grid-area: header;
+    background-color: #e6d5c3; /* Как в примере одногруппника */
+    padding: 20px;
+    border-radius: 6px;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: #f2eee9;
+    padding: 20px;
+    border-radius: 6px;
+}
+.sidebar h3 {
+    margin-bottom: 1rem;
+}
+.side-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.side-links a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.side-links a:hover {
+    color: #3498db;
+}
+.main {
+    grid-area: main;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 6px;
+}
+.footer {
+    grid-area: footer;
+    background-color: #e6d5c3;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/*Navigation bar*/
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -85,4 +143,26 @@ body {
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/*Gallery 3x3*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 одинаковых столбца */
+    grid-template-rows: repeat(3, 180px);    /* 3 ряда фиксированной высоты */
+    gap: 15px;                               /* Пространство между картинками */
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);                  /* Небольшое увеличение при наведении */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Тень при наведении */
 }
