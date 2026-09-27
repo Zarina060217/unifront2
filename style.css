@@ -18,18 +18,18 @@ body {
         "footer footer";
     min-height: 100vh;
     gap: 15px;
-    background-color: #e5e9ef;
+    background-color: #224292;
     padding: 15px;
 }
 .header {
     grid-area: header;
-    background-color: #e6d5c3; /* Как в примере одногруппника */
+    background-color: #4c6bad; 
     padding: 20px;
     border-radius: 6px;
 }
 .sidebar {
     grid-area: sidebar;
-    background-color: #f2eee9;
+    background-color: #50c4b6;
     padding: 20px;
     border-radius: 6px;
 }
@@ -43,7 +43,7 @@ body {
     gap: 10px;
 }
 .side-links a {
-    color: #2c3e50;
+    color: #389f7b;
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,13 +52,13 @@ body {
 }
 .main {
     grid-area: main;
-    background-color: #fafafa;
+    background-color: #6e3434;
     padding: 20px;
     border-radius: 6px;
 }
 .footer {
     grid-area: footer;
-    background-color: #e6d5c3;
+    background-color: #041b9c;
     padding: 15px 20px;
     text-align: center;
     border-radius: 6px;
@@ -111,7 +111,7 @@ body {
 }
 .card img {
     width: 100%;
-    height: 200px; 
+    height: 220px; 
     object-fit: cover; 
     object-position: center top; /
 }
@@ -149,7 +149,7 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 одинаковых столбца */
-    grid-template-rows: repeat(3, 180px);    /* 3 ряда фиксированной высоты */
+    grid-template-rows: repeat(3, 200px);    /* 3 ряда фиксированной высоты */
     gap: 15px;                               /* Пространство между картинками */
     margin-top: 15px;
 }
@@ -163,6 +163,6 @@ body {
 }
 
 .gallery img:hover {
-    transform: scale(1.05);                  /* Небольшое увеличение при наведении */
+    transform: scale(1.03);                  /* Небольшое увеличение при наведении */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Тень при наведении */
 }
