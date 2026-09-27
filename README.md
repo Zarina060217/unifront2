@@ -56,3 +56,18 @@
 * * gap: 15px → Adds clean, consistent spacing between all images.
 
 * * :hover effect → Scales the image up slightly and adds a shadow when you mouse over it.
+* Part3
+* * ![alt text](image-15.png)
+* all with portfolio html
+* ![alt text](image-16.png)
+* portfolio css
+* ![alt text](image-17.png)
+* ![alt text](image-19.png)
+* For Task 4, we created a portfolio page with a header, main section, sidebar, and footer.
+* * Page structure: HTML semantic elements such as <header>, <main>, <aside>, and <footer> were used to organize the page.
+* * Flexbox navigation: Flexbox was used to arrange the navigation links in the header/sidebar and keep the elements aligned.
+* * CSS Grid: CSS Grid was used in the portfolio section to place the Projects area on the left and the Project Info sidebar on the right.
+* * Project cards: Flexbox was used inside the project cards to arrange the image, title, description, and button.
+* * Footer: CSS Grid was used in the main page layout so the footer spans across the bottom of the page.
+* * Spacing and alignment: Padding, margins, gaps, and consistent sizing were added to keep the sections and cards neatly aligned.
+* Website: https://zarina060217.github.io/unifront2/#
