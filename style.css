@@ -166,3 +166,36 @@ body {
     transform: scale(1.03);                  /* Небольшое увеличение при наведении */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Тень при наведении */
 }
+
+.portfolio-grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.portfolio-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.proj-card {
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.proj-card img {
+    width: 180px;
+    object-fit: cover;
+}
+.proj-body {
+    padding: 15px;
+}
+.proj-body button {
+    margin-top: 10px;
+    padding: 7px 12px;
+}
+.portfolio-sidebar-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}

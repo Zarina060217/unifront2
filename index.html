@@ -1,76 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formula1 Grid Layout & Gallery</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="page">
-            <header class="header">
-                <h2>Formula1 Dashboard</h2>
-                <p>Explore teams, drivers, and the photo gallery.</p>
-            </header>
-            <aside class="sidebar">
-                <h3>Navigation</h3>
-                <ul class="side-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Drivers</a></li>
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Grand Prix</a></li>
-                </ul>
-            </aside>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula1 Grid Layout & Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <main class="main">
-                <h3>Teams Showcase</h3>
-                <div class="card-container">
-                    <div class="card">
-                        <img src="mercedes.jpg" alt="Mercedes F1">
-                        <div class="card-body">
-                            <h3>Mercedes F1</h3>
-                            <p>All it takes, is all of us</p>
-                            <button style="background-color: #00a19b; color: white;">Button</button>
-                        </div>
-                    </div>
+<body>
 
-                    <div class="card">
-                        <img src="redbull.jpg" alt="Red Bull F1">
-                        <div class="card-body">
-                            <h3>Red Bull F1</h3>
-                            <p>Red Bull gives you wings</p>
-                            <button style="background-color: #1e3d59; color: white;">Button</button>
-                        </div>
-                    </div>
+    <div class="page">
 
-                    <div class="card">
-                        <img src="ferrari.jpg" alt="Ferrari F1">
-                        <div class="card-body">
-                            <h3>Ferrari F1</h3>
-                            <p>Essere Ferrari</p>
-                            <button style="background-color: #dc0000; color: white;">Button</button>
-                        </div>
+        <header class="header">
+            <h2>Formula1 Dashboard</h2>
+            <p>Explore teams, drivers, and the photo gallery.</p>
+        </header>
+
+        <aside class="sidebar">
+            <h3>Navigation</h3>
+            <ul class="side-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Drivers</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Grand Prix</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+
+            <h3>Teams Showcase</h3>
+            <div class="card-container">
+                <div class="card">
+                    <img src="mercedes.jpg" alt="Mercedes F1">
+                    <div class="card-body">
+                        <h3>Mercedes F1</h3>
+                        <p>All it takes, is all of us</p>
+                        <button style="background-color: #00a19b; color: white;">
+                            Button
+                        </button>
                     </div>
                 </div>
 
-                <h3 style="margin-top: 3rem;">F1 Photo Gallery</h3>
-                <div class="gallery">
-                    <img src="max1.jpg" alt="Gallery 1">
-                    <img src="max2.jpg" alt="Gallery 2">
-                    <img src="max3.jpg" alt="Gallery 3">
-                    <img src="diva1.jpg" alt="Gallery 4">
-                    <img src="toto.jpg" alt="Gallery 5">
-                    <img src="diva2.jpg" alt="Gallery 6">
-                    <img src="leclerc1.jpg" alt="Gallery 7">
-                    <img src="leclerc2.jpg" alt="Gallery 8">
-                    <img src="leclerc3.jpg" alt="Gallery 9">
+                <div class="card">
+                    <img src="redbull.jpg" alt="Red Bull F1">
+                    <div class="card-body">
+                        <h3>Red Bull F1</h3>
+                        <p>Red Bull gives you wings</p>
+                        <button style="background-color: #1e3d59; color: white;">
+                            Button
+                        </button>
+                    </div>
                 </div>
-            </main>
 
-            <footer class="footer">
-                <p>&copy; 2026 Formula1 Project. All rights reserved.</p>
-            </footer>
+                <div class="card">
+                    <img src="ferrari.jpg" alt="Ferrari F1">
+                    <div class="card-body">
+                        <h3>Ferrari F1</h3>
+                        <p>Essere Ferrari</p>
+                        <button style="background-color: #dc0000; color: white;">
+                            Button
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-        </div>
-    </body>
+            <h3 style="margin-top: 3rem;">F1 Photo Gallery</h3>
+            <div class="gallery">
+                <img src="max1.jpg" alt="Gallery 1">
+                <img src="max2.jpg" alt="Gallery 2">
+                <img src="max3.jpg" alt="Gallery 3">
+                <img src="diva1.jpg" alt="Gallery 4">
+                <img src="toto.jpg" alt="Gallery 5">
+                <img src="diva2.jpg" alt="Gallery 6">
+                <img src="leclerc1.jpg" alt="Gallery 7">
+                <img src="leclerc2.jpg" alt="Gallery 8">
+                <img src="leclerc3.jpg" alt="Gallery 9">
+            </div>
+
+            <div id="portfolio" style="margin-top: 4rem;">
+                <h3>Task 4. Portfolio Section</h3>
+                <p style="margin-bottom: 1rem; color: #555;">
+                    Portfolio
+                </p>
+
+                <div class="portfolio-grid-layout">
+                    <div class="portfolio-projects">
+                        <div class="proj-card">
+                            <img src="mercedes.jpg" alt="Project 1">
+                            <div class="proj-body">
+                                <h3>Telemetry App</h3>
+                                <p>Live tracking tool.</p>
+                                <button>
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="proj-card">
+                            <img src="redbull.jpg" alt="Project 2">
+                            <div class="proj-body">
+                                <h3>Aero Simulator</h3>
+                                <p>Wind tunnel analytics.</p>
+                                <button>
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="portfolio-sidebar-info">
+                        <h4>Project Info</h4>
+                        <p>
+                            This section demonstrates the combination of
+                            Grid layout structures and internal Flexbox
+                            alignment for portfolio cards.
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>
+                &copy; 2026 Formula1 Project. All rights reserved.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
 </html>
