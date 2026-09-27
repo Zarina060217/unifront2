@@ -33,4 +33,51 @@ body{
 
     /*4. apply spacing between the links using Flexbox*/
     gap: 2rem;
+} 
+.card-section{
+    padding: 2rem;
+}
+/*Task1 ->  1.Make container a flex container so cards appear in row */
+.card-container{
+    display: flex;
+    /*2. Add consistent gap between cards using flexbox*/
+    gap: 20px;
+    /*3.ensure all cards have equal height*/
+    align-items: stretch;
+}
+.card{
+    background-color:rgb(14, 29, 59);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+
+    /*make all cards share equal width and growth in row*/
+    flex:1;
+    
+    /*makes inner content behave nicely so buttons align*/
+    display: flex;
+    flex-direction: column;
+
+    /*simple hover transition*/
+    transition: transform 0.2s ease, box shadow 0.2s ease;
+}
+.card img{
+    width: 100%;
+    height:150px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Pushes button down if text lengths vary */
+}
+.card-body p {
+    margin-bottom: 1rem;
+    color: #666;
+    flex-grow: 1; /* Keeps spacing consistent */
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
