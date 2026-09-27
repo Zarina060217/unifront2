@@ -12,17 +12,19 @@
 * navigation container css
 * ![alt text](image-4.png)
 * Task 1
-*![alt text](image-3.png)
+* ![alt text](image-6.png)
 * card row html
-*![alt text](image-5.png)
+* ![alt text](image-7.png)
+* ![alt text](image-8.png)
 *card row css
-*How we completed task :
-*display: flex → Puts the cards in a horizontal row instead of stacking them.
 
-*gap: 20px → Adds clean, even spacing between the cards.
+* How we completed task :
+* * display: flex → Puts the cards in a horizontal row instead of stacking them.
 
-*align-items: stretch + flex: 1 → Makes all cards share the exact same height and width.
+* * gap: 20px → Adds clean, even spacing between the cards.
 
-*flex-grow: 1 on the text → Forces all the buttons to align neatly at the bottom of each card.
+* * align-items: stretch + flex: 1 → Makes all cards share the exact same height and width.
 
-*:hover effect → Lifts the card up (translateY) and adds a shadow when you mouse over it.
+* * flex-grow: 1 on the text → Forces all the buttons to align neatly at the bottom of each card.
+
+* * :hover effect → Lifts the card up (translateY) and adds a shadow when you mouse over it.
